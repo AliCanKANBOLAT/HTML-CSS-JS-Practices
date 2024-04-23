@@ -1,0 +1,37 @@
+#include<stdio.h>
+int main() {
+	float a;
+	float b;
+printf("Boyunuzu santimetre olarak giriniz:\n");
+scanf("%f",&a);
+printf("Kilonuzu Giriniz:\n");
+scanf("%f",&b);
+
+float Oran;
+Oran  = (b*10000) / (a*a);
+
+
+	
+printf("Vucut Kitle Endeks Oraniniz : %f\n",Oran);
+int Hesap = Oran*10;
+
+
+
+if ( Hesap <= 185) {
+	printf("Cok Zayifsiniz... Biraz yemek yemek iyi gelir:)\n");
+	
+}
+if ( 250 > Hesap && Hesap > 185) {
+	printf("ideal kilodasin");
+}
+
+if ( 249 <= Hesap && Hesap<= 299) {
+	printf("Fazla Kilolusun dikkat et\n");
+}
+else  {
+
+
+printf("Obezite");
+}
+return 0;
+}

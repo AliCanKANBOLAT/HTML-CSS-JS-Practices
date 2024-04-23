@@ -1,0 +1,152 @@
+:root {
+--green: #2ecc71;
+--blue: #3498db;
+--lila: #9b59b6;
+--yellow: #f1c40f;
+--orange: #f39c12;
+--darkblue: #2c3e50;
+--red: #e74c3c;
+--silver: #bdc3c7;
+--black: #1e272e;
+--white: #ffffff;
+--bg-color: var(--silver);
+--text-color: var(--white);
+--body-color: var(--white);
+--link-color: var(--blue);
+--link-color-hover: var(--darkblue);
+--box-size: 900px;
+
+}
+/* HELPER */
+.clear-fix {
+  clear:both;
+}
+
+:root[data-theme="dark"] {
+  --bg-color: var(--black);
+  --text-color: var(--blue);
+  --body-color: var(--darkblue);
+  
+
+  }
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box
+}
+body {
+  background-color: var(--body-color);
+}
+
+/* NAV */
+header,main {
+  background-color: var(--bg-color);
+  min-height:20px ;
+  padding: 20px 0;
+  color:var(--text-color);
+  margin-bottom: 20px;
+
+}
+header > nav {
+  width: var(--box-size);
+  margin: 0 auto;
+
+}
+header>nav>ul {
+  float: left;
+  list-style: none;
+}
+header>nav>ul:last-of-type {
+  float: right;
+}
+header>nav>ul>li {
+  float: left;
+  margin-right: 10px;
+  
+}
+header>nav>ul>li>a {
+  text-decoration: none;
+  color:var(--link-color) ;
+  padding: 4px 8px;
+  border-radius:4px ;
+
+}
+header>nav>ul>li>a:hover {
+  color:var(--link-color-hover);
+  background-color: #ffffff;
+}
+header>nav>ul>li:last-child>a {
+  background: #000;
+}
+/* MAIN */
+main {
+  width: var(--box-size);
+  margin: 0 auto 40px;
+  /* min-height: 1180px; */
+  border: 1px solid var(--text-color);
+  border-radius: 4px;
+  padding: 20px;
+}
+/* ASIDE */
+aside, section {
+  float: left;
+}
+aside {
+  width: 30%;
+  padding: 20px;
+}
+aside > ul { 
+  list-style: none;
+}
+
+section {
+  width: 70%;
+}
+aside > ul > li > a {
+  color:var(--text-color); 
+  padding: 6px 10px;
+  display: block;
+}
+aside > ul > li > a:hover {
+  color:var(--darkblue);
+}
+article, article > header {
+
+}
+article {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 7px;
+
+}
+article > header {
+  background-color: #2c3e50;
+  padding: 0;
+  border-bottom: none;
+}
+article > footer {
+  padding: 10px 0;
+  
+}
+header {
+  border-bottom: 1px solid var(--silver);
+}
+article > footer > a {
+  color: var(--text-color);
+} 
+article > footer > a:hover {
+  background-color: var(--white);
+}
+article > p {
+  margin-bottom: 10px;
+}
+img {
+  width: 400px;
+  padding: 4px;
+  border-radius: 7px;
+  border: 1px solid --bg-color;
+  background-color: var(--body-color);
+  margin: 10px 0;
+}
+/* SECTION */

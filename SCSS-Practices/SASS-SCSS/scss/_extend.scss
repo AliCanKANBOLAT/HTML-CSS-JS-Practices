@@ -1,0 +1,13 @@
+.extend-button {
+  color: red;
+  border-right-color: black;
+  &--success {
+    @extend .extend-button;
+    background-color: $bg-color;
+  }
+}
+
+.extend-container-info{
+  @extend .container;
+  background-color: blue;
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmet-ile-Calisma</title>
+</head>
+<body>
+    <!--
+        . -- classes
+        # -- id
+        < -- icinde Oge
+        {icindeki yazi}
+        + -- Kardes Oge
+        ^ -- Uste Cik
+        lorem -- Anlamsiz Kelimeler Olustur
+        * -- x kadar cogalt
+        () -- Grupla
+        $ -- Sıralı islem Baslat
+        [] -- Attribute Kullanimi
+        
+    -->
+    <!-- classlar ile Calismak -->
+    <div class="css ogrenenler html ogrenenler js phyton"></div>
+    <!-- .css.js.phyton.html.vscode.chrome -->
+   <div class="css js phyton html vscode chrome"></div>
+    <div id="tcno1234">1</div>
+    <div id="tcno1234">2</div>
+    <!-- bu yanlis bir kullanim cunku ayni id den bir tane kullanilmali browserda gosterir fakat kullanim yanlis standart degil YANI BIR ETIKETTE BIR TANE ID OLUR. -->
+    <!-- .container.bg-dark.p-4#content bu sekilde farklı classlar ve id aynı anda olusturabiliriz asagida...-->
+    <div class="container bg-dark p-4" id="content"></div>
+    <!--kendi denemelerim burdan sonra-->
+    <div class="apple"></div>
+    <div id="Icardii">3</div>
+    <!-- emmet ikinci bolum -->
+    <!-- h1{icindeki yazi}+tab tusu ile icinde atmis oluruz -->
+    <h1>icindeki yazi</h1>
+    <!-- ul>li{icindeki yazi}+tab ile bu sekilde olur -->
+    <ul>
+        <li>icindeki yazi</li>
+    </ul>
+    <!-- kardes etiketler -->
+    <!-- h1+p+tab -->
+<h1></h1>
+<p></p>
+    <!-- h1+h2+h3+p+tab -->
+<h1></h1>
+<h2></h2>
+<h3></h3>
+<p></p>
+<!-- h1>{icindeki yazi}^h2>{h2 icindeki yazi}^h3{h3 icindeki yazisi}^p{paragraf yazisi} -->
+<h1>icindeki yazi</h1>
+<h2>h2 icindeki yazi</h2>
+<h3>h3 icindeki yazisi</h3>
+<p>paragraf yazisi</p> 
+<!-- Lorem Ipsum Nedir -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ullam ratione consequuntur. Quisquam, modi. Incidunt tempore sit, ea eveniet nemo, architecto rerum aspernatur soluta possimus natus iure recusandae perspiciatis veritatis!</p>
+<!-- p>Lorem5 -->
+Lorem ipsum dolor sit amet.
+<p>Lorem ipsum dolor sit amet.</p>
+<!-- h1>lorem2^h2lorem5>lorem7^p>lorem20 -->
+<h1>Lorem, ipsum.</h1>
+<h2lorem5>Lorem ipsum dolor sit amet consectetur adipisicing.</h2lorem5>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam commodi mollitia architecto. Dignissimos doloremque natus eaque fuga mollitia, sint magni.</p>
+
+<!-- h1>lorem2^h2lorem5>lorem7^p*3>lorem20 Carpi kullanimi -->
+<h1>Lorem, ipsum.</h1>
+<h2lorem5>Lorem ipsum dolor sit amet consectetur adipisicing.</h2lorem5>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem totam saepe est id neque? Nobis, consequatur omnis. Dolorem, id fugit.</p>
+<p>Doloremque atque repellendus est quisquam inventore distinctio veritatis magnam omnis? Sit eos repellendus voluptas beatae reiciendis et similique possimus eius!</p>
+<p>Et amet dignissimos nobis sequi reiciendis dolor quaerat non quos at a? Maxime harum quisquam dolorum cupiditate exercitationem cum quibusdam.</p>
+
+
+<!-- Basit Hali -->
+<!-- ul>li*3 -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- ul>li*3>lorem2 -->
+<ul>
+    <li>Lorem, ipsum.</li>
+    <li>Debitis, vel.</li>
+    <li>Deserunt, perspiciatis?</li>
+</ul>
+
+<!-- ul*3>li*5>Lorem1 -->
+<ul>
+    <li>Lorem.</li>
+    <li>Distinctio.</li>
+    <li>Rerum.</li>
+    <li>Minus.</li>
+    <li>Nam!</li>
+</ul>
+<ul>
+    <li>Lorem.</li>
+    <li>Laboriosam.</li>
+    <li>Quaerat!</li>
+    <li>Delectus!</li>
+    <li>Odio!</li>
+</ul>
+<ul>
+    <li>Lorem.</li>
+    <li>Molestias!</li>
+    <li>Eum.</li>
+    <li>Officia.</li>
+    <li>Officia?</li>
+</ul>
+<!--Bilgileri Birlestir-->
+ <!-- h1 class title olsun, h2 class sub-title olsun ve 3 paragraf icinde lorem 2 ul icinde yine item class bilgisi olan 5 li olsun. -->
+    <!-- h1.title>lorem1^h2.sub-title>lorem3^p*3>lorem5^ul*2>li.item*5>lorem -->
+    <h1 class="title">Lorem.</h1>
+    <h2 class="sub-title">Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Maxime rem error aliquid necessitatibus!</p>
+    <p>Debitis laborum laudantium labore beatae.</p>
+    <ul>
+        <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt atque ad earum tempora ut consequuntur repudiandae nostrum, vel, quisquam perspiciatis animi. Deleniti aspernatur earum nulla temporibus saepe reiciendis atque corporis?</li>
+        <li class="item">Alias, laboriosam rem debitis ratione aut laborum velit minima illum nobis culpa nihil nam cumque odit corporis aliquid aperiam libero commodi doloribus distinctio? Non nisi modi, in ipsam velit repudiandae.</li>
+        <li class="item">Ullam, quod doloremque. Unde, assumenda inventore? Accusamus cupiditate, quo, non culpa at sint velit odit neque iusto assumenda modi itaque, alias labore repellat ratione repellendus praesentium architecto delectus? Quibusdam, numquam.</li>
+        <li class="item">Est iusto quo odit quidem, a repudiandae quisquam harum nesciunt aperiam facilis eius! Reiciendis, sunt, ducimus quam quae molestiae dolorem optio ipsa nobis nam dicta doloribus ipsam distinctio, tempore odio.</li>
+        <li class="item">Possimus voluptatibus amet fugiat veniam non dolores provident laudantium voluptate assumenda, sequi sit quisquam facere nihil dignissimos nulla pariatur harum! Distinctio explicabo modi debitis tempora voluptas deserunt voluptates, sint neque.</li>
+    </ul>
+    <ul>
+        <li class="item">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ex, architecto natus fugit vitae exercitationem quasi ut odit quo illum praesentium minus a fuga voluptatibus molestiae, delectus, incidunt dolorem maiores!</li>
+        <li class="item">Quo aperiam doloremque minus, dolores eaque ea illo molestias eveniet, quam porro illum id? Odio totam ducimus aliquam aspernatur ullam explicabo fuga tempora quos mollitia minus, natus dicta quibusdam consectetur?</li>
+        <li class="item">Tempore laboriosam reprehenderit sapiente, maiores eligendi possimus, aliquid repellat accusamus eveniet praesentium minima. Cum quod aut repellendus magnam quisquam quae minima, ratione atque reiciendis porro eius ipsa asperiores voluptates adipisci!</li>
+        <li class="item">Dignissimos sapiente vero natus delectus culpa, deleniti tenetur animi eos soluta nesciunt sequi, libero dicta sit ad earum, aut eaque maxime. Nostrum impedit quod repudiandae est voluptatum voluptatibus eaque. At.</li>
+        <li class="item">Porro laudantium, nisi exercitationem aut autem minus ex ratione dolores corporis soluta, voluptatibus quaerat recusandae odit itaque? Nobis recusandae optio, eveniet expedita similique voluptatum excepturi iure magnam repellendus dolorum molestias.</li>
+    </ul>
+
+    <!-- anlamak icin degistiriyorum: h1.title>lorem1^h2.sub-title>lorem3^p*3>lorem2^ul*2>li.item*5>lorem -->
+    <h1 class="title">Lorem.</h1>
+    <h2 class="sub-title">Lorem, ipsum dolor.</h2>
+    <p>Lorem, ipsum.</p>
+    <p>Accusantium, exercitationem!</p>
+    <p>Ea, repudiandae!</p>
+    <ul>
+        <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus tenetur atque laboriosam veritatis velit modi omnis, maiores possimus eveniet consequatur placeat, hic deserunt repudiandae voluptatem itaque ab assumenda illo odit?</li>
+        <li class="item">Sit eum quidem asperiores repellendus at. Rem unde veniam, facilis a suscipit corporis nisi dicta consequatur eaque? Accusamus, libero minus rerum ad autem vitae repudiandae iste ex consequatur, excepturi adipisci?</li>
+        <li class="item">Optio vero dignissimos consequuntur, labore minima non beatae cumque, similique earum consequatur qui consectetur nulla officiis facere adipisci? Libero ratione animi minima consequuntur similique error autem consectetur rerum. Facilis, velit?</li>
+        <li class="item">Accusamus neque totam aut! Dolorum suscipit deleniti porro, modi molestiae dolores necessitatibus mollitia quos, est deserunt ipsum error accusamus nihil esse! Perferendis eveniet magnam officiis, labore in sapiente recusandae consectetur!</li>
+        <li class="item">Optio tempora ipsa, incidunt facilis expedita quidem. Ea dolore magnam suscipit voluptatibus repudiandae inventore placeat, sapiente voluptate accusantium, vitae aut ducimus aliquid a minima deserunt atque. Maiores repellat ex tenetur.</li>
+    </ul>
+    <ul>
+        <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus adipisci ducimus odit temporibus, vero provident quibusdam repellat placeat reiciendis fugiat debitis, eos consequuntur nesciunt labore nemo voluptatum perspiciatis iusto ipsa.</li>
+        <li class="item">Asperiores ipsa, neque vero, quod quia fugit aspernatur corporis sit nobis ullam enim quis vitae nam cum! Non est, iure nostrum asperiores dicta molestiae laborum id soluta? Perspiciatis, voluptates id?</li>
+        <li class="item">Accusantium magni ad accusamus laboriosam ex quae fuga nostrum minima, optio aperiam. Nesciunt nisi corrupti natus illum ea excepturi aperiam doloremque consequatur provident quia error necessitatibus, accusantium quo earum eum.</li>
+        <li class="item">Ab eveniet delectus totam aliquam qui ducimus in porro dolorem doloribus architecto expedita, quis beatae tempora rem deserunt quam labore, voluptate rerum dignissimos. Quasi facere quia modi voluptates nesciunt nisi.</li>
+        <li class="item">Eos nobis consequuntur ea facere soluta, cumque itaque blanditiis architecto quam quo sequi iusto asperiores. Necessitatibus est velit optio in fugit tempora adipisci nemo ad dignissimos, et ducimus dolorem fugiat!</li>
+    </ul>
+    <!-- Aq yanlis yeri degistirmisiz... h1.title>lorem1^h2.sub-title>lorem3^p*3>lorem5^ul*2>li.item*2>lorem -->
+    <h1 class="title">Lorem.</h1>
+    <h2 class="sub-title">Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Totam eligendi deserunt quidem officiis.</p>
+    <p>Ex rem a aliquam consectetur?</p>
+    <ul>
+        <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia in autem placeat eaque aperiam molestiae, nulla id consequuntur alias, tenetur odio corrupti sapiente corporis inventore nisi! Minus dicta tempore ipsum.</li>
+        <li class="item">Molestiae voluptates dolorem maiores suscipit doloribus ad mollitia aspernatur, officia reprehenderit quis odit inventore natus asperiores recusandae optio omnis soluta sunt aut harum incidunt eum magnam? Quo soluta consequuntur hic.</li>
+    </ul>
+    <ul>
+        <li class="item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas distinctio, ad blanditiis ut iste? Hic, ratione architecto numquam culpa illo voluptas aperiam! Itaque modi alias libero consectetur sequi expedita!</li>
+        <li class="item">Sunt vel labore autem excepturi ex alias voluptas aut. Quasi, facilis! Maiores corrupti saepe assumenda, autem, modi, obcaecati beatae quaerat atque exercitationem animi sapiente ex suscipit architecto nihil vitae ducimus.</li>
+    </ul>
+    <!-- h1.title>lorem1^h2.sub-title>lorem3^p*3>lorem5^ul*2>li.item*2>lorem3 yazdigimda -->
+
+    <h1 class="title">Lorem.</h1>
+    <h2 class="sub-title">Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Molestias libero tenetur sint voluptatum!</p>
+    <p>Ducimus in eos saepe consequatur!</p>
+    <ul>
+        <li class="item">Lorem, ipsum dolor.</li>
+        <li class="item">Dolores, quasi molestias.</li>
+    </ul>
+    <ul>
+        <li class="item">Lorem, ipsum dolor.</li>
+        <li class="item">Mollitia, odit aliquid!</li>
+    </ul>
+    <!-- h1.title>lorem1^(h2.sub-title>lorem3^p*3>lorem5^ul*2>li.item*2>lorem3) yazdigimda -->
+    <h1 class="title">Lorem.</h1>
+    <h2 class="sub-title">Lorem, ipsum dolor.</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Fugit possimus in ex adipisci!</p>
+    <p>Eligendi odio facere ad veritatis.</p>
+    <ul>
+        <li class="item">Lorem, ipsum dolor.</li>
+        <li class="item">Illum, consequuntur et.</li>
+    </ul>
+    <ul>
+        <li class="item">Lorem, ipsum dolor.</li>
+        <li class="item">Quia, doloribus veniam?</li>
+    </ul>
+    <!-- $ kullanimi sıralıyor yani-->
+    <!-- ul>li*5>{item$} -->
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+        <li>item5</li>
+    </ul>
+    <ul>
+        <li class="item1">item -- 1</li>
+        <li class="item2">item -- 2</li>
+        <li class="item3">item -- 3</li>
+        <li class="item4">item -- 4</li>
+        <li class="item5">item -- 5</li>
+    </ul>
+    <!-- [] -- Atribute Kullanimi -->
+    <p title="info">Lorem.</p>
+   <!-- p[title="info"]>lorem1 yukarda yazdim-->
+   <!-- img[src="http://"] -->
+   <img src="httpp://" alt="">
+</body>
+</html>

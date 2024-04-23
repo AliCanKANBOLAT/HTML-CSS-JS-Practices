@@ -1,0 +1,221 @@
+:root {
+  --soft-orange:hsl(35, 77%, 62%);
+  --soft-red:hsl(5, 85%, 63%);
+  --Off-white:hsl(36, 100%, 99%);
+  --grayis-blue:hsl(233, 8%, 79%);
+  --dark-drayish-blue:hsl(236, 13%, 42%);
+  --Very-dark-blue:hsl(240, 100%, 5%);
+
+
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--Off-white);
+  font-size: 15px;
+  margin:0 ;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+nav,
+.container {
+  width: 1100px;
+  margin: 0 auto;
+  
+}
+nav>ul  {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  list-style: none;
+  justify-content: end  ;
+}
+nav >ul >li > a {
+  text-decoration: none;
+  color: var(--dark-drayish-blue);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+nav >ul >li > a:hover{
+  background-color: var(--grayis-blue);
+  color: var(--Very-dark-blue);
+  text-decoration: underline;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 60px;
+}
+.container > section {
+  background-color: var(--Off-white);
+  flex: 2;
+}
+
+.img-1{
+  width: 100%;
+}
+
+.info{
+  display: flex;
+}
+.info > .item {
+  gap: 50px; 
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+
+.item > h1 {
+  font-size: 3rem;
+  padding-top:0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.item> .btn {
+  display: flex;
+  color: var(--Off-white);
+  background-color:var(--soft-red);  
+  width: 150px;
+  margin-right: 250px;
+  height: 50px;
+  text-decoration: none;
+  align-items: end;
+}
+.btn>h1 {
+  margin: auto;
+  letter-spacing: 3px;
+    
+  
+}
+.container>aside{
+  background-color: var(--Very-dark-blue);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  color: var(--Off-white);
+
+}
+.container > aside  {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+ .aside1 {
+  margin: 0 20px 0px 20px;
+  border-bottom: 1px solid var(--dark-drayish-blue);
+  flex: 1;
+  font-family:'Inter', sans-serif; 
+ }
+ .aside2{
+  margin: 0 20px 0px 20px;
+  border-bottom: 1px solid var(--dark-drayish-blue);
+  flex: 1;
+ }
+ .aside3{
+  margin: 0 20px 0px 20px;
+  flex: 1;
+ }
+ aside>h1 {
+  margin-left: 20px;
+  margin-bottom: 0;
+  font-size: 2rem;
+  color: goldenrod;
+ }
+ footer{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  width: 1500px;
+  height: 200px;
+  margin-bottom: 50px;
+  gap: 20px;
+  box-sizing: border-box;
+ }
+ .footer1{
+  display: flex;
+  flex: 1;
+  margin: 0 0 0 0 auto;
+  box-sizing: border-box;
+  flex-direction: column;
+  
+ }
+.footer2{
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+  padding: auto;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+.footer3{
+  display: flex;
+  flex: 1;
+  margin: 0 auto;
+  padding:0 auto;
+  box-sizing: border-box;
+  flex-direction: column;
+   
+}
+.img-2 > img{
+width: 100px;
+height: 120px;
+
+}
+.img-3 > img{
+  width: 100px;
+  height: 120px;
+  }
+  .img-4 > img{
+    width: 100px;
+    height: 120px;
+    }
+    footer> .footer1>h2{
+      margin: 0;
+      font-size: 2rem;
+      color: var(--grayis-blue);
+    }
+    footer> .footer2>h2{
+      margin: 0;
+      font-size: 2rem;
+      color: var(--grayis-blue);
+    }
+    footer> .footer3>h2{
+      margin: 0;
+      font-size: 2rem;
+      color: var(--grayis-blue);
+    }
+   
+
+   
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px */
+/* 
+/* ## Colors
+
+### Primary
+
+/* - Soft orange: hsl(35, 77%, 62%)
+- Soft red: hsl(5, 85%, 63%) */
+
+/* ### Neutral */ 
+
+/* Off-white: hsl(36, 100%, 99%)
+Grayish blue: hsl(233, 8%, 79%)
+/* Dark grayish blue: hsl(236, 13%, 42%)
+Very dark blue: hsl(240, 100%, 5%)  */ 

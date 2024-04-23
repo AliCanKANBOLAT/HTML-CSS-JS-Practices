@@ -1,0 +1,47 @@
+#include<stdio.h>
+
+
+int main() {
+	
+
+printf("sayi giriniz:\n");
+int sayi;
+scanf("%d",&sayi);
+int islemno;
+printf("yaptirmak istediginiz islemi seciniz:\n");
+printf("1.cikarma\n2.toplama\n3.carpma\n4.bolme\n");
+scanf("%d",&islemno);
+int sayi2;
+printf("sayi2'yi giriniz:\n");
+scanf("%d",&sayi2);
+int sonuc;
+
+
+if(islemno==1) {
+	sonuc=sayi-sayi2;
+	printf("sonuc: %d",sonuc);
+	
+}
+else if(islemno==2) {
+	sonuc=sayi+sayi2;
+	printf("sonuc: %d",sonuc);
+	
+}
+else if(islemno==3) {
+	sonuc=sayi*sayi2;
+	printf("sonuc: %d",sonuc);
+	
+}
+else if(islemno==4) {
+	sonuc=sayi/sayi2;
+	float d;
+	d=sonuc;
+	printf("sonuc: %f", d);
+
+}	
+else {
+	printf("gecersiz islem sectin ayuu");
+}
+	
+	return 0;
+}

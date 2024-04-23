@@ -1,0 +1,28 @@
+@import 'variables';
+@import 'base';
+@import 'container';
+@import 'nav';
+@import 'parent-selector';
+@import 'mixin-card';
+@import 'extend';
+@import 'interpolation';
+@import 'list';
+@import 'map-padding';
+
+
+
+
+
+
+
+.info{
+  $bg-color:red;
+  background-color: $bg-color ;
+}
+
+
+     
+
+
+
+

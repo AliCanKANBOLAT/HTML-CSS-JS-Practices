@@ -1,0 +1,772 @@
+:root{
+ --Light-red: hsl(0, 100%, 67%);
+ --very-light-red: hsl(0, 100%, 98%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--yellow:hsl(39, 100%, 98%);
+--Green-teal: hsl(166, 100%, 37%);
+--Green: hsl(166, 100%, 98%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+--Cobalt: hsl(234, 85%, 98%);
+
+/* background */
+--Light-slate-blue: hsl(252, 100%, 67%);
+--Light-royal-blue: hsl(241, 81%, 54%);
+/* circle */
+--Violet-blue: hsla(256, 72%, 46%, 1);
+--Persian-blue: hsla(241, 72%, 46%, 0);
+
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+font-size: 18px;
+font-family: Hanken Grotesk, sans-serif;
+}
+*{
+  background-color: var(--Pale-blue);
+  margin: 0;
+  padding: 0;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+body{
+  font-size: 18px;
+  font-family: 'Hanken Grotesk', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+section{
+  padding-top: 250px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+
+}
+.class76{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--White);
+  background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(256, 72%, 46%, 0));
+  
+}
+.box1{
+  width: 370px;
+  height: 512px;
+  background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(256, 72%, 46%, 0.55));
+  border-radius: 45px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+
+.box2{
+  width: 370px;
+  height: 512px;
+  background: linear-gradient(to left, var(--White) , var(--Pale-blue));
+  border-radius: 0px 45px 45px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  
+  
+}
+
+
+.class76>h1{
+  font-size: 3.4rem;
+  background-color: transparent;
+  margin: 10;
+  font-size: 4rem; 
+  
+}
+.class76>p{
+  background-color: transparent;
+  color: var(--Light-lavender);
+  font-size: 0.8rem;
+
+  
+}
+.box1>h2{
+  background-color: transparent;
+  color: var(--Light-lavender);
+  padding-top: 10px;
+  padding: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+.content{
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+  }
+  .content>h1{
+    background-color: transparent;
+    color: var(--White);
+    margin-bottom: 10px;
+    
+    
+  }
+  .content> p {
+    text-align: center;
+    margin: 0;
+    background-color: transparent;
+    color: var(--Light-lavender);
+    margin-bottom: 10px;   
+  }
+  .bora1,
+  .bora2,
+  .bora3,
+  .bora4{
+    height: 50px;
+    width: 310px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    
+    }
+    .bora3{
+      gap: 15px;
+    }
+    .bora4{
+      gap: 15px;
+    }
+
+    
+
+  section>.box2>h2{
+    width: 300px;
+    text-align: start !important ;
+    background-color: transparent;
+    font-size: 1.2rem;
+    color: var(--Dark-gray-blue);
+    margin-top: 35px;
+    margin-bottom: 20px;
+  }
+  .bora1>img{
+    background-color: transparent;
+    margin-left: 15px;
+  }
+  .bora1>h4{
+    background-color: transparent;
+    color: var(--Light-red);
+  }
+  .bora2>h4{
+    background-color: transparent;
+    color: var(--Orangey-yellow);
+  }
+  .bora3>h4{
+    background-color: transparent;
+    letter-spacing: 4px;
+    color: var(--Green-teal);
+  }
+  .bora4>h4{
+    background-color: transparent;
+    letter-spacing: 4px;
+    color: var(--Cobalt-blue);
+  }
+  .bora1>p{
+    text-align: end;
+    margin-left: 90px;
+    background-color: var(--very-light-red) !important;
+    font-weight: bold;
+    color: black;
+  }
+  
+  
+  
+  .bora2>p{
+    text-align: end;
+    margin-left: 90px;
+    font-weight: bold;
+    background-color: var(--yellow) !important;
+    color: black;
+  }
+  .bora2>img{
+    margin-left: 15px;
+    background-color: transparent;
+  }
+  .bora3>p{
+    text-align: end;
+    margin-left: 80px;
+    font-weight: bold;
+    background-color: var(--Green) !important;
+    color: black;
+  }
+  .bora3>img{
+    margin-left: 15px;
+    background-color: transparent;
+  }
+  .bora4>p{
+    text-align: end;
+    margin-left: 80px;
+    font-weight: bold;
+    background-color: var(--Cobalt);
+    color: black;
+    
+  
+  }
+  .bora4>img{
+    margin-left: 15px;
+    background-color: transparent;
+  }
+  .bora1{
+    background-color: var(--very-light-red);
+
+  }
+  .bora2{
+    background-color: var(--yellow);
+    
+    
+  }
+  .bora3{
+    background-color: var(--Green) !important;
+    
+    
+  }
+  .bora4{
+    background-color: var(--Cobalt) !important;
+    
+    
+  }
+  footer{
+    width: 300px;
+    height: 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    background-color: var(--Dark-gray-blue);
+    
+  }
+  footer>p{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    width: 20px;
+    height: 10px;
+    margin-left: 140px;
+    background-color: var(--Dark-gray-blue);
+    color: var(--Pale-blue);
+     
+  }
+  @media only screen and (max-width: 375px) {
+    *{
+      background-color: var(--White);
+      margin: 0;
+      padding: 0;
+      font-family: 'Hanken Grotesk', sans-serif;
+    }
+    body{
+      font-size: 18px;
+      font-family: 'Hanken Grotesk', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    section{
+      padding-top: 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 0px;
+    
+    }
+    .class76{
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: var(--White);
+      background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(256, 72%, 46%, 0));
+      
+    }
+    .box1{
+      width: 375px;
+      height: 360px;
+      background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(256, 72%, 46%, 0.55));
+      border-radius: 45px;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    
+    
+    .box2{
+      width: 370px;
+      height: 512px;
+      background: linear-gradient(to left, var(--White) , var(--Pale-blue));
+      border-radius: 0px 45px 45px 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+      align-items: center;
+      
+      
+    }
+    
+    
+    .class76>h1{
+      font-size: 3.4rem;
+      background-color: transparent;
+      margin: 0;
+      font-size: 4rem; 
+      
+    }
+    .class76>p{
+      background-color: transparent;
+      color: var(--Light-lavender);
+      font-size: 0.8rem;
+    
+      
+    }
+    .box1>h2{
+      background-color: transparent;
+      color: var(--Light-lavender);
+      padding-top: 10px;
+      padding: 0;
+      margin: 0;
+      margin-top: 20px;
+    }
+    .content{
+      background-color: transparent;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 250px;
+      }
+      .content>h1{
+        background-color: transparent;
+        color: var(--White);
+        margin-bottom: 10px;
+        
+        
+      }
+      .content> p {
+        text-align: center;
+        margin: 0;
+        background-color: transparent;
+        color: var(--Light-lavender);
+        margin-bottom: 10px;   
+      }
+      .bora1,
+      .bora2,
+      .bora3,
+      .bora4{
+        height: 50px;
+        width: 310px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+        
+        }
+        .bora3{
+          gap: 15px;
+        }
+        .bora4{
+          gap: 15px;
+        }
+    
+        
+    
+      section>.box2>h2{
+        width: 300px;
+        text-align: start !important ;
+        background-color: transparent;
+        font-size: 1.2rem;
+        color: var(--Dark-gray-blue);
+        margin-top: 35px;
+        margin-bottom: 20px;
+      }
+      .bora1>img{
+        background-color: transparent;
+        margin-left: 15px;
+      }
+      .bora1>h4{
+        background-color: transparent;
+        color: var(--Light-red);
+      }
+      .bora2>h4{
+        background-color: transparent;
+        color: var(--Orangey-yellow);
+      }
+      .bora3>h4{
+        background-color: transparent;
+        letter-spacing: 4px;
+        color: var(--Green-teal);
+      }
+      .bora4>h4{
+        background-color: transparent;
+        letter-spacing: 4px;
+        color: var(--Cobalt-blue);
+      }
+      .bora1>p{
+        text-align: end;
+        margin-left: 90px;
+        background-color: var(--very-light-red) !important;
+        font-weight: bold;
+        color: black;
+      }
+      
+      
+      
+      .bora2>p{
+        text-align: end;
+        margin-left: 90px;
+        font-weight: bold;
+        background-color: var(--yellow) !important;
+        color: black;
+      }
+      .bora2>img{
+        margin-left: 15px;
+        background-color: transparent;
+      }
+      .bora3>p{
+        text-align: end;
+        margin-left: 80px;
+        font-weight: bold;
+        background-color: var(--Green) !important;
+        color: black;
+      }
+      .bora3>img{
+        margin-left: 15px;
+        background-color: transparent;
+      }
+      .bora4>p{
+        text-align: end;
+        margin-left: 80px;
+        font-weight: bold;
+        background-color: var(--Cobalt);
+        color: black;
+        
+      
+      }
+      .bora4>img{
+        margin-left: 15px;
+        background-color: transparent;
+      }
+      .bora1{
+        background-color: var(--very-light-red);
+    
+      }
+      .bora2{
+        background-color: var(--yellow);
+        
+        
+      }
+      .bora3{
+        background-color: var(--Green) !important;
+        
+        
+      }
+      .bora4{
+        background-color: var(--Cobalt) !important;
+        
+        
+      }
+      footer{
+        width: 300px;
+        height: 50px;
+        border-radius: 50px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        background-color: var(--Dark-gray-blue);
+        
+      }
+      footer>p{
+        display: flex;
+        justify-content: center;
+        padding-top: 15px;
+        width: 20px;
+        height: 10px;
+        margin-left: 140px;
+        background-color: var(--Dark-gray-blue);
+        color: var(--Pale-blue);
+   
+      }
+      @media only screen and (max-width: 390px) {
+        *{
+          background-color: var(--White);
+          margin: 0;
+          padding: 0;
+          font-family: 'Hanken Grotesk', sans-serif;
+        }
+        body{
+          font-size: 18px;
+          font-family: 'Hanken Grotesk', sans-serif;
+          margin: 0;
+          padding: 0;
+        }
+        section{
+          padding-top: 0px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: 0px;
+        
+        }
+        .class76{
+          border-radius: 50%;
+          width: 140px;
+          height: 140px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          color: var(--White);
+          background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(256, 72%, 46%, 0));
+          
+        }
+        .box1{
+          width: 390px;
+          height: 360px;
+          background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(256, 72%, 46%, 0.55));
+          border-radius: 45px;
+          display: flex;
+          flex-direction: column;
+          margin: 0;
+          padding: 0;
+          justify-content: space-around;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        
+        
+        
+        .box2{
+          width: 390px;
+          height: 512px;
+          background: linear-gradient(to left, var(--White) , var(--Pale-blue));
+          border-radius: 0px 45px 45px 0px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin: 0;
+          padding: 0;
+          align-items: center;
+          
+          
+        }
+        
+        
+        .class76>h1{
+          font-size: 3.4rem;
+          background-color: transparent;
+          margin: 0;
+          font-size: 4rem; 
+          
+        }
+        .class76>p{
+          background-color: transparent;
+          color: var(--Light-lavender);
+          font-size: 0.8rem;
+        
+          
+        }
+        .box1>h2{
+          background-color: transparent;
+          color: var(--Light-lavender);
+          padding-top: 10px;
+          padding: 0;
+          margin: 0;
+          margin-top: 20px;
+        }
+        .content{
+          background-color: transparent;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          width: 250px;
+          }
+          .content>h1{
+            background-color: transparent;
+            color: var(--White);
+            margin-bottom: 10px;
+            
+            
+          }
+          .content> p {
+            text-align: center;
+            margin: 0;
+            background-color: transparent;
+            color: var(--Light-lavender);
+            margin-bottom: 10px;   
+          }
+          .bora1,
+          .bora2,
+          .bora3,
+          .bora4{
+            height: 50px;
+            width: 310px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 0;
+            margin: 0;
+            
+            }
+            .bora3{
+              gap: 15px;
+            }
+            .bora4{
+              gap: 15px;
+            }
+        
+            
+        
+          section>.box2>h2{
+            width: 300px;
+            text-align: start !important ;
+            background-color: transparent;
+            font-size: 1.2rem;
+            color: var(--Dark-gray-blue);
+            margin-top: 35px;
+            margin-bottom: 20px;
+          }
+          .bora1>img{
+            background-color: transparent;
+            margin-left: 15px;
+          }
+          .bora1>h4{
+            background-color: transparent;
+            color: var(--Light-red);
+          }
+          .bora2>h4{
+            background-color: transparent;
+            color: var(--Orangey-yellow);
+          }
+          .bora3>h4{
+            background-color: transparent;
+            letter-spacing: 4px;
+            color: var(--Green-teal);
+          }
+          .bora4>h4{
+            background-color: transparent;
+            letter-spacing: 4px;
+            color: var(--Cobalt-blue);
+          }
+          .bora1>p{
+            text-align: end;
+            margin-left: 90px;
+            background-color: var(--very-light-red) !important;
+            font-weight: bold;
+            color: black;
+          }
+          
+          
+          
+          .bora2>p{
+            text-align: end;
+            margin-left: 90px;
+            font-weight: bold;
+            background-color: var(--yellow) !important;
+            color: black;
+          }
+          .bora2>img{
+            margin-left: 15px;
+            background-color: transparent;
+          }
+          .bora3>p{
+            text-align: end;
+            margin-left: 80px;
+            font-weight: bold;
+            background-color: var(--Green) !important;
+            color: black;
+          }
+          .bora3>img{
+            margin-left: 15px;
+            background-color: transparent;
+          }
+          .bora4>p{
+            text-align: end;
+            margin-left: 80px;
+            font-weight: bold;
+            background-color: var(--Cobalt);
+            color: black;
+            
+          
+          }
+          .bora4>img{
+            margin-left: 15px;
+            background-color: transparent;
+          }
+          .bora1{
+            background-color: var(--very-light-red);
+        
+          }
+          .bora2{
+            background-color: var(--yellow);
+            
+            
+          }
+          .bora3{
+            background-color: var(--Green) !important;
+            
+            
+          }
+          .bora4{
+            background-color: var(--Cobalt) !important;
+            
+            
+          }
+          footer{
+            width: 300px;
+            height: 50px;
+            border-radius: 50px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            background-color: var(--Dark-gray-blue);
+            
+          }
+          footer>p{
+            display: flex;
+            justify-content: center;
+            padding-top: 15px;
+            width: 20px;
+            height: 10px;
+            margin-left: 140px;
+            background-color: var(--Dark-gray-blue);
+            color: var(--Pale-blue);
+
+
+
+    }
+  
+      }
+  }

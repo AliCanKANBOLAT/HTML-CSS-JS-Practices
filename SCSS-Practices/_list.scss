@@ -1,0 +1,18 @@
+$sizes: 0 5 10 15 20 ;
+$images: ("https://picsum.photos/id/1/100/100","https://picsum.photos/id/255/200/300");
+// $types: [primary secondary "info button"];
+
+.mt-#{nth($sizes, 2)} {
+
+  margin-top:#{nth($sizes, 1)}px ;
+}
+
+.box{
+  background-image: url(#{nth($images,1)});
+}
+
+@each $size in $sizes {
+  .mt-#{$size} {
+    margin-top: #{$size}px;
+  }
+}

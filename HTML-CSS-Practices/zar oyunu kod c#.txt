@@ -1,0 +1,34 @@
+Random Zar = new Random ();
+int ilkZar = Zar.Next(1,7);
+Console.Write("ilk Zar:");
+Console.WriteLine(ilkZar);
+int ikinciZar = Zar.Next(1,7);
+Console.Write("ikinci Zar:");
+Console.WriteLine(ikinciZar);
+int ucuncuZar = Zar.Next(1,7);
+Console.Write("ucuncu Zar:");
+Console.WriteLine(ucuncuZar);
+int Toplam;
+int Bonus;
+int Bonusiki;
+if ((ilkZar == ikinciZar) || (ikinciZar == ucuncuZar) || (ilkZar == ucuncuZar)) {
+Bonus = 2;
+}
+else {
+    Bonus = 0;
+}
+if((ilkZar==ikinciZar) && (ikinciZar==ucuncuZar)) {
+Bonusiki = 6;
+}
+else  {
+    Bonusiki = 0;
+}
+Toplam = ilkZar+ikinciZar+ucuncuZar+Bonus+Bonusiki;
+Console.Write("Toplam skor bonuslar dahil:");
+Console.WriteLine(Toplam);
+if (Toplam >= 15) {
+    Console.WriteLine("Tebrikler Kazandiniz...");
+}
+else {
+    Console.WriteLine("Kaybettiniz...");
+}

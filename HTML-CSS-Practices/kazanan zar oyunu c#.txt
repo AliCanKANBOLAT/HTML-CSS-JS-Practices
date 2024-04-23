@@ -1,0 +1,22 @@
+Random Zar = new Random ();
+int ilkZar = Zar.Next(1,7);
+Console.Write("Alper'in Zari:");
+Console.WriteLine(ilkZar);
+int ikinciZar = Zar.Next(1,7);
+Console.Write("AliCan'in Zari:");
+Console.WriteLine(ikinciZar);
+int ucuncuZar = Zar.Next(1,7);
+Console.Write("Romel'in Zari:");
+Console.WriteLine(ucuncuZar);
+if ((ilkZar > ikinciZar) && (ilkZar > ucuncuZar) && (ilkZar != ucuncuZar)) {
+Console.WriteLine("Kazanan Alper..");
+}
+if ((ikinciZar > ilkZar) && (ikinciZar > ucuncuZar)) {
+    Console.WriteLine("Kazanan AliCan...");
+}
+if ((ucuncuZar > ilkZar) && (ucuncuZar > ikinciZar)) {
+    Console.WriteLine("Kazanan Romel...");
+}
+if ((ilkZar == ikinciZar) && (ikinciZar > ucuncuZar)) {
+    Console.WriteLine("Kazanan yok Tekrar Atiniz...");
+}

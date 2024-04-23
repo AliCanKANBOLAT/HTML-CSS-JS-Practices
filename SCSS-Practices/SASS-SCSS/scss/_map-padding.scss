@@ -1,0 +1,8 @@
+$names: ("t":"top","b": "bottom","l": "left", "r": "right");
+$sizes: 0 5 10 15 20;
+
+// @each $key, $value in $names {
+//   .p#{$key}-10 {
+//     padding-#{$value} : 10px;
+//   }
+// }

@@ -1,0 +1,145 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Soft blue: hsl(215, 51%, 70%)
+- Cyan: hsl(178, 100%, 50%)
+
+### Neutral
+
+- Very dark blue (main BG): hsl(217, 54%, 11%)
+- Very dark blue (card BG): hsl(216, 50%, 16%)
+- Very dark blue (line): hsl(215, 32%, 27%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 18px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 300, 400, 600
+ */
+:root{
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan:hsl(178, 100%, 50%);
+--Very-dark-blue-mainbg: hsl(217, 54%, 11%);
+--Very-dark-blue-cardbg: hsl(216, 50%, 16%);
+--Very-dark-blue-line: hsl(215, 32%, 27%);
+--White: hsl(0, 0%, 100%);
+}
+*,
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--Very-dark-blue-mainbg);
+
+}
+section{
+  max-width: 350px;
+  height: 600px;
+  background-color: var(--Very-dark-blue-cardbg);
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  color: var(--White);
+  border-radius: 10px;
+}
+section > img{
+  max-width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+ section>h3{
+  background-color: transparent;
+  text-align: left;
+  padding-right: 115px;
+  padding-top: 20px;
+  font-size: 1.4rem;
+  
+ }
+ section>p{
+  background-color: transparent;
+  text-align: left;
+  font-size: 1.1rem;
+  color: var(--Soft-blue);
+  padding: 15px 20px 5px 25px;
+  line-height: 1.7;
+ }
+ article{
+  height: 60px;
+  width: 304px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  
+ }
+ article>.item1>img{
+  padding-right: 10px;
+  background-color: transparent;
+  
+ }
+ .item1{
+  display: flex;
+  color: var(--Cyan);
+  background-color: transparent;
+ }
+ .item2{
+  display: flex;
+  color: var(--Soft-blue);
+  background-color: transparent;
+ }
+ article>.item2>img{
+  padding-right: 10px;
+  background-color: transparent;
+ }
+ footer{
+  width: 300px;
+  height: 60px;
+  border-top: 1px solid var(--Very-dark-blue-line);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  color: var(--Soft-blue);
+  gap: 5px;
+  background-color: transparent;
+ }
+ footer>img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--White);
+  background-color: transparent;
+  margin-right: 15px;
+  
+ }
+ footer>h6{
+  color: var(--White);
+  font-size: 1rem;
+  font-weight: lighter;
+  background-color: transparent;
+ }
+ footer>p{
+  background-color: transparent;
+ }
+ 

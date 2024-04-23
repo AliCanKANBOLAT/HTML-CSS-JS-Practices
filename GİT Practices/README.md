@@ -1,0 +1,2 @@
+# deneme
+Proje deneme bilgileri

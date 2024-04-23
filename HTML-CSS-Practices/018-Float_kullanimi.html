@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .box {
+      width: 150px;
+      float: left;
+      margin-right: 10px;
+    }
+    .bg_aqua {
+      background-color: aqua;
+      
+    }
+    .clear_fix {
+      clear: both;
+    }
+    .bg_red {
+      background-color: red;
+    }
+    main {
+      width: 800px;
+      margin: 20px auto;
+      padding-top: 20px;
+      padding-left: 5px;
+    }
+    main > aside {
+      width: 30%;
+      float: left;
+
+    }
+    main > section {
+      width: 70%;
+      float: left;
+    }
+
+  </style>
+  <title>Float Kullanimi</title>
+</head>
+<body>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/float -->
+  <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/clear -->
+  <div class="box bg_aqua">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi, soluta?</div>
+  <div class="box bg_aqua">Laudantium exercitationem hic sed explicabo, harum itaque laboriosam magnam dignissimos!</div>
+  <div class="box bg_aqua">Ipsam quod a minima harum in, illum placeat facilis illo!</div>
+  <div class="box bg_aqua">Sunt unde quos libero, deserunt voluptatem voluptas adipisci eius dolorum.</div>
+  <div class="box bg_aqua">Nemo totam modi perspiciatis repellendus debitis accusantium, vel recusandae dignissimos.</div>
+  <div class="clear_fix"></div>
+  <div class="bg_red">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore, dolor!</div>
+  <main>
+    <aside class="bg_aqua">
+      <ul>
+        <li>Lorem.</li>
+        <li>Repellendus!</li>
+        <li>Recusandae.</li>
+        <li>Est.</li>
+        <li>Eius.</li>
+        <li>Cum.</li>
+        <li>Tempora.</li>
+        <li>Nisi!</li>
+        <li>Vero.</li>
+        <li>Temporibus!</li>
+      </ul>
+    </aside>
+    <section class="bg_red">
+      <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, nostrum?</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat dicta asperiores ducimus quos nulla nemo praesentium, harum quo soluta dolorem.</p>
+      <p>Architecto, similique? Vitae numquam quam culpa dicta! Alias a odit delectus aliquam! Quasi neque explicabo, totam numquam quod at adipisci.</p>
+      <p>Molestias quibusdam, ratione magni, eligendi tempora iusto sint accusamus animi voluptatem sed vitae ducimus aliquid commodi saepe veritatis et sapiente.</p>
+    </section>
+  </main>
+</body>
+</html>

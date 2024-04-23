@@ -1,0 +1,150 @@
+:root {
+  --red: #fc5c65;
+  --dark-red: #eb3b5a;
+  --light-blue: #45aaf2;
+  --blue: #3867d6;
+  --gray: #d1d8e0;
+  --white: #ffffff;
+  --dark-blue: #2f3542;
+  --dark-pink: #ffcccc;
+  --pink: #ffb8b8;
+  --shadow: #4b4b4b;
+  --dark: #3d3d3d;
+  text-align: center;
+  margin: 0px auto;
+  padding:0px;
+  font-family:'Griffy', serif;
+  font-size: 20px;
+  --footer-height: 100px;
+}
+
+
+header {
+  padding-bottom: 25px;
+  font-size: 24px;
+  border-bottom: 2px solid var(--dark-blue);
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  max-width: 1100px;
+  padding-top: 0px;
+  
+}
+.clear-fix {
+  overflow: auto;
+}
+
+nav > ul {
+ 
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  font-size: 25px;
+}
+nav > ul > li {
+  display: inline-block;
+}
+body {
+  
+    font-family:'Agbalumo', serif;
+  
+}
+nav { 
+  min-height: 50px;
+  padding-bottom: 10px;
+  
+}
+section {
+  margin: 5px 350px 5px 350px;
+  background-color: var(--gray);
+  border-radius: 20px;
+  float: left;
+  list-style: none;
+  border-color: var(--light-blue);
+  
+}
+img {
+  border-radius: 5px;
+  padding-top: 0px;
+  flex: center;
+  max-height: 250px;
+  max-width: 400px;
+  
+}
+aside {
+  float: left;
+  padding: 40px 20px 30px 0;
+  display: flex;
+  flex-direction: column; /* İçerikleri dikey olarak sırala */
+  align-items: flex-start;
+  list-style: none;
+  color: var(--white);
+  border: 1px solid white; /* Siyah renkte 2 piksel kalınlığında bir kenarlık */
+  border-radius: 1px;
+  font-size: 20px;
+  max-width: 350px;
+  max-height:350px;
+   
+  
+  
+  
+}
+.renk {
+  color: #ffffff; 
+}
+aside > ul:hover {
+  background-color:var(--pink);
+  color:#45aaf2;
+  cursor: pointer;
+  text-decoration: underline;
+  list-style: none;
+
+}
+section > aside > ul > li{
+  list-style: none;
+  
+}
+ul > li > a {
+  text-decoration: none; /* Altını çizmeyi iptal et */
+  color: #000; /* İstediğiniz rengi belirle */
+  list-style: none;
+}
+ nav > ul > li > a {
+  margin: -10px 10px;
+  padding: 10px;
+  color: var(--dark-blue);
+  background: var(--gray);
+  border: 5px solid black;
+  
+  
+}
+nav > ul > li > a:hover {
+  border:5px solid --gray;
+  background-color: black;
+  color: white;
+}
+
+:root [data-theme="dark"] {
+  background-color: #000;
+  color: #ffffff;
+  border: 1px solid white;
+
+}
+
+nav > ul > li > header {
+  background-color: var(--gray);
+  margin: 0px 0px 20px;
+  padding: 20px 0px;
+}
+details > summary > p > ul {
+  background-color: var(--gray);
+  
+
+}
+  
+  
+  
+
+
+
+
+

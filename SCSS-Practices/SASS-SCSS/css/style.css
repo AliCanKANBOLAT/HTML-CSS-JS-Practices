@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container, .extend-container-info {
+  background-color: #f8c291;
+  color: #82ccdd;
+  padding: 10px;
+}
+
+nav {
+  background-color: #f8c291;
+  margin-bottom: 20px;
+  padding: 15px 5px;
+}
+
+nav > ul {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: #b71540;
+}
+
+nav > ul > li > a:hover {
+  color: yellow;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 7px 12px;
+  border: 1px solid #D5D5D5;
+  background-image: linear-gradient(#EEE, #DDD);
+  font: 700 13px/18px Helvetica, arial;
+}
+.btn:hover {
+  color: red;
+}
+.btn--state-success {
+  color: #FFF;
+  background: #569E3D linear-gradient(#79D858, #569E3D) repeat-x;
+  border-color: #4A993E;
+}
+.btn--state-danger {
+  color: #900;
+}
+
+.card {
+  background-color: #f8c291;
+  border-radius: 4px;
+  border: 1px solid chocolate;
+}
+
+.card_with_bg {
+  background-color: #D980FA;
+  border-radius: 4px;
+  border: 1px solid chocolate;
+}
+
+.extend-button, .extend-button--success {
+  color: red;
+  border-right-color: black;
+}
+.extend-button--success {
+  background-color: #f8c291;
+}
+
+.extend-container-info {
+  background-color: blue;
+}
+
+.sampiyon-Cimbom {
+  font-size: 16px;
+}
+
+.mt-5 {
+  margin-top: 0px;
+}
+
+.box {
+  background-image: url(https://picsum.photos/id/1/100/100);
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.info {
+  background-color: red;
+}/*# sourceMappingURL=style.css.map */

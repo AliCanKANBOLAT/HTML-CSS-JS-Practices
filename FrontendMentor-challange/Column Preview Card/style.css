@@ -1,0 +1,300 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+ */
+ :root{
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+--Transparent-white: hsla(0, 0%, 100%, 0.75);
+--Very-light-gray: hsl(0, 0%, 95%);
+
+ }
+ html,
+ *,
+ body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  margin: auto;
+  
+ }
+ .main-box{
+  width: 918px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  margin-top: 220px;
+  box-sizing: border-box;
+  
+  
+ }
+ footer {
+  position: relative;
+}
+.learn-more{
+  cursor: pointer;
+  text-decoration: none;
+}
+ 
+ 
+ .box1,
+ .box2,
+ .box3{
+  height: 500px; 
+  width: 306px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  
+
+ }
+ .box1{
+  background-color: var(--Bright-orange);
+  
+ }
+ .box2{
+  background-color: var(--Dark-cyan);
+ }
+ .box3{
+  background-color: var(--Very-dark-cyan);
+ }
+ footer{
+  width: 145px;
+  height: 50px;
+  background-color: bisque;
+  border-radius: 50px;
+ }
+
+ .main-box>.box1>img{
+  padding-right: 160px;
+ }
+ .main-box>.box2>img{
+  padding-right: 160px;
+ }
+ .main-box>.box3>img{
+  padding-right: 160px;
+ }
+ .main-box>.box1>h1{
+  font-size: 2.5rem;
+  padding-right: 130px;
+  color: var(--Very-light-gray);
+  font-family: 'Big Shoulders Display', sans-serif;
+ }
+ .main-box>.box2>h1{
+  font-size: 2.5rem;
+  padding-right: 210px;
+  color: var(--Very-light-gray);
+  font-family: 'Big Shoulders Display', sans-serif;
+ }
+ .main-box>.box3>h1{
+  font-size: 2.5rem;
+  padding-right: 170px;
+  color: var(--Very-light-gray);
+  font-family: 'Big Shoulders Display', sans-serif;
+ }
+ .main-box>.box1>p{
+  letter-spacing: 1.3px;
+  margin: 0 15px 80px 45px;
+  line-height: 25px;
+  color: var(--Transparent-white);
+  
+  }
+ .main-box>.box2>p{
+  letter-spacing: 1.3px;
+  margin: 0 25px 80px 27px;
+  line-height: 25px;
+  color: var(--Transparent-white);
+ }
+ .main-box>.box3>p{
+  letter-spacing: 1.3px;
+  margin: 0 25px 80px 35px;
+  line-height: 25px;
+  color: var(--Transparent-white);
+ }
+ footer{
+  text-align: center;
+  padding-top: 15px;
+ }
+ .box1>footer{
+  color:var(--Bright-orange);
+  background-color: #fff;
+ }
+ .box2>footer{
+  color:var(--Dark-cyan);
+  background-color: #fff;
+ }
+ .box3>footer{
+  color:var(--Very-dark-cyan);
+  background-color: #fff;
+ }
+ @media screen and (min-width: 375px) {
+  :root{
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+    
+     }
+     html,
+     *,
+     body{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Lexend Deca', sans-serif;
+      font-size: 15px;
+      margin: auto;
+      
+      
+     }
+     .main-box{
+      width: 352px;
+      height: 1320px;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--Very-light-gray);
+      margin-top: 50px;
+      box-sizing: border-box;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 50px;
+      
+      
+     }
+     footer {
+      position: relative;
+    }
+    .learn-more{
+      cursor: pointer;
+      text-decoration: none;
+    }
+     
+     
+     .box1,
+     .box2,
+     .box3{
+      height: 500px; 
+      width: 306px;
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0;
+      
+    
+     }
+     .box1{
+      background-color: var(--Bright-orange);
+      
+     }
+     .box2{
+      background-color: var(--Dark-cyan);
+     }
+     .box3{
+      background-color: var(--Very-dark-cyan);
+     }
+     footer{
+      width: 145px;
+      height: 50px;
+      background-color: bisque;
+      border-radius: 50px;
+     }
+    
+     .main-box>.box1>img{
+      padding-right: 160px;
+     }
+     .main-box>.box2>img{
+      padding-right: 160px;
+     }
+     .main-box>.box3>img{
+      padding-right: 160px;
+     }
+     .main-box>.box1>h1{
+      font-size: 2.5rem;
+      padding-right: 130px;
+      color: var(--Very-light-gray);
+      font-family: 'Big Shoulders Display', sans-serif;
+     }
+     .main-box>.box2>h1{
+      font-size: 2.5rem;
+      padding-right: 190px;
+      color: var(--Very-light-gray);
+      font-family: 'Big Shoulders Display', sans-serif;
+     }
+     .main-box>.box3>h1{
+      font-size: 2.5rem;
+      padding-right: 150px;
+      color: var(--Very-light-gray);
+      font-family: 'Big Shoulders Display', sans-serif;
+     }
+     .main-box>.box1>p{
+      letter-spacing: 1.3px;
+      margin: 0 15px 80px 45px;
+      line-height: 25px;
+      color: var(--Transparent-white);
+      
+      }
+     .main-box>.box2>p{
+      letter-spacing: 1.3px;
+      margin: 0 25px 80px 27px;
+      line-height: 25px;
+      color: var(--Transparent-white);
+     }
+     .main-box>.box3>p{
+      letter-spacing: 1.3px;
+      margin: 0 25px 80px 35px;
+      line-height: 25px;
+      color: var(--Transparent-white);
+     }
+     footer{
+      text-align: center;
+      padding-top: 15px;
+     }
+     .box1>footer{
+      color:var(--Bright-orange);
+      background-color: #fff;
+     }
+     .box2>footer{
+      color:var(--Dark-cyan);
+      background-color: #fff;
+     }
+     .box3>footer{
+      color:var(--Very-dark-cyan);
+      background-color: #fff;
+     }
+ }

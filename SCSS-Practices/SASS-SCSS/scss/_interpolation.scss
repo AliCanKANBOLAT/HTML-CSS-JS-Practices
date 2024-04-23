@@ -1,0 +1,9 @@
+@mixin sampiyon($name, $font-size: 16px) {
+  .sampiyon-#{$name} {
+    font-size: $font-size;
+  }
+}
+
+@include sampiyon(Cimbom);
+
+

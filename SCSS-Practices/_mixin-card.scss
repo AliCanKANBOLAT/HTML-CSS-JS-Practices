@@ -1,0 +1,18 @@
+@mixin card_mixin() {
+  background-color: $bg-color;
+  border-radius: 4px;
+  border: 1px solid chocolate;
+}
+@mixin card_mixin_v2($bg: $bg-color) {
+  background-color: $bg;
+  border-radius: 4px;
+  border: 1px solid chocolate;
+}
+
+
+.card {
+  @include card_mixin_v2();
+}
+.card_with_bg {
+  @include card_mixin_v2(#D980FA);
+}

@@ -1,0 +1,281 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 14px
+
+### Font
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 */
+:root{
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+font-family: 'Montserrat' ,sans-serif;
+font-size: 14px;
+}
+
+*,
+body{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+.main{
+  width:1440px ;
+  height:800px ;
+  background-color: var(--Cream);
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  
+
+}
+section{
+  max-width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  box-sizing: border-box;
+  
+
+  }
+  .class1{
+  width: 300px;
+  height: 450px;
+  box-sizing: border-box;
+  
+  }
+  .class1>img{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+  }
+  .class2{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 30px;
+    border-radius: 0 10px 10px 0;
+
+  }
+  .class2>h4{
+    letter-spacing: 4px;
+    font-weight: normal;
+  }
+  .class2>h2{
+    
+    font-family: 'Fraunces', sans-serif;
+    font-size: 2.2rem;
+    letter-spacing: 1.4px;
+    line-height: 0.9;
+  }
+  .class2>h6{
+    font-size: 1rem;
+    
+    font-weight: normal;
+    line-height: 2;
+  }
+  .class2>p{
+    font-size: 1.3rem;
+    align-items: center;
+    
+    
+  }
+  
+  
+  .silly>strong{
+    color: var(--Dark-cyan);
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-family: 'Fraunces';
+    
+    
+      
+  }
+  .linethrough{
+    text-decoration: line-through;
+    
+    
+  }
+  .silly{
+    width: 250px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+  }
+  footer{
+    box-sizing: border-box;
+    width: 230px;
+    height: 60px;
+    background-color: var(--Dark-cyan);
+    border-radius: 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    color: var(--White);
+    gap: 10px;
+    }
+    @media screen and (max-width: 410px) {
+      :root{
+        --Dark-cyan: hsl(158, 36%, 37%);
+        --Cream: hsl(30, 38%, 92%);
+        --Very-dark-blue: hsl(212, 21%, 14%);
+        --Dark-grayish-blue: hsl(228, 12%, 48%);
+        --White: hsl(0, 0%, 100%);
+        font-family: 'Montserrat' ,sans-serif;
+        font-size: 14px;
+        }
+        
+        *,
+        body{
+          box-sizing: border-box;
+          padding: 0;
+          margin: 0;
+          
+        }
+        .main{
+          width:410px ;
+          height:700px ;
+          background-color: var(--Cream);
+          margin: auto;
+          display: flex;
+          
+        
+        }
+        section{
+          max-width: 344px;
+          height: 610px;
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+          box-sizing: border-box;
+          align-items: center;
+          
+          
+        
+          }
+          .class1{
+          width: 344px;
+          height: 240px;
+          box-sizing: border-box;
+          background-image: url('/images/image-product-mobile.jpg');
+          background-size: cover;
+          border-radius: 10px 10px 0 0;
+
+          
+          }
+          .class1>img{
+            display: none;
+          }
+          
+          .class2{
+            width: 344px;
+            height: 370px;
+            background-color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding: 30px;
+            border-radius: 0 0 10px 10px;
+            padding-right: 8px;
+        
+          }
+          .class2>h4{
+            letter-spacing: 1px;
+            font-weight: normal;
+          }
+          .class2>h2{
+            
+            font-family: 'Fraunces', sans-serif;
+            font-size: 2.2rem;
+            letter-spacing: 1.4px;
+            line-height: 1;
+          }
+          .class2>h6{
+            font-size: 1rem;
+            font-weight: normal;
+            line-height: 1.4;
+          }
+          .class2>p{
+            font-size: 1.3rem;
+            align-items: center;
+            
+            
+          }
+          
+          
+          .silly>strong{
+            color: var(--Dark-cyan);
+            font-size: 2.2rem;
+            text-decoration: none;
+            font-family: 'Fraunces';
+            
+            
+              
+          }
+          .linethrough{
+            text-decoration: line-through;
+            
+            
+          }
+          .silly{
+            width: 250px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            
+          }
+          footer{
+            box-sizing: border-box;
+            width: 300px;
+            height: 50px;
+            background-color: var(--Dark-cyan);
+            display:flex ;
+            align-items: center;
+            justify-content: center;
+            color: var(--White);
+            gap: 10px;
+            border-radius: 10px;
+            }
+    }
+  
+
+  

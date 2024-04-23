@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main() {
+	int a;
+	int b=1;
+printf("faktoriyelini girilmesini istediginiz sayiyi giriniz:\n");
+scanf("%d",&a);	
+while(a > 1) {
+b = a*b;
+a--;
+
+	
+	
+	
+	
+}	
+printf("sonuc: %d",b);
+	return 0;
+}

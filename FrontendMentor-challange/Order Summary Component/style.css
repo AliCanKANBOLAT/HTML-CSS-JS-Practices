@@ -1,0 +1,137 @@
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+ */
+ :root{
+--Pale-blue: hsl(225, 100%, 94%);
+--Bright-blue: hsl(245, 75%, 52%);
+--Very-pale-blue: hsl(225, 100%, 98%);
+--Desaturated-blue: hsl(224, 23%, 55%);
+--Dark-blue: hsl(223, 47%, 23%);
+font-size: 16px;
+ }
+ html, body {
+  height: 100%;
+  margin: 0;
+  filter: blur(0.25px);
+}
+ body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Hat Display'  ;
+  background-color: var(--Pale-blue);
+  background-image: url('/images/pattern-background-desktop.svg');
+  background-size: 100% 50%;
+  background-repeat: no-repeat;
+ }
+ .main{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 630px;
+  background-color: white;
+  margin-top: 170px;
+  margin-left: 750px;
+  gap: 5px;
+  
+ }
+ .box1>img{
+  width: 100%;
+ }
+ .box1{
+  padding: 0;
+  margin: 0;
+ }
+ .box2{
+  width:300px ;
+  height: 140px;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  color: var(--Desaturated-blue);
+  
+ }
+ .box2>h2{
+  color: var(--Dark-blue);
+ }
+ .box3{
+  height: 87px;
+  width: 320px;
+  background-color: var(--Very-pale-blue);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 25px;
+  box-sizing: border-box;
+  
+  
+
+ }
+ .annual{
+  box-sizing: border-box;
+  margin-left: 25px;
+  padding-top: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  
+   
+ }
+ 
+ .box3>a{
+  
+  font-size: 1.1rem;
+  padding-left: 30px;
+  padding-right: 20px;
+ }
+ .box4  {
+  width: 320px;
+  height: 50px;
+  background-color: var(--Bright-blue);
+  color: var(--Very-pale-blue);
+  text-align: center;
+  border-bottom: 10px solid var(--Very-pale-blue);
+  box-shadow: 1px -1px 20px 1px var(--Very-pale-blue) inset;
+  border-radius: 40px; 
+  
+  
+ }
+ .box5>p{
+  color: var(--Desaturated-blue);
+  filter: blur(0.5px);
+ }
+ 
+ 
+ 
